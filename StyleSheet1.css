@@ -47,15 +47,14 @@
 #film {
     float: left;
     color: rgb(47, 79, 79);
-    width: 50%;
+    width: 40%;
 }
 #dzienotwarty {
     float: left;
     color: rgb(47, 79, 79);
     text-align: left;
     width: 50%;
-    /*    height: 300px;
-*/}
+    }
 #odklejenie{
     clear: both;
 }
