@@ -16,9 +16,9 @@
         jQuery(function ($) {
             $.scrollTo(0); //zresetowanie scrolla
 
-            $('#link0').click(function () { $.scrollTo($('#news'), 800); });
-            $('#link1').click(function () { $.scrollTo($('#onas'), 800); });
-            $('#link2').click(function () { $.scrollTo($('#projekty'), 800); });
+            $('#link0').click(function () { $.scrollTo($('#news'), 600); });
+            $('#link1').click(function () { $.scrollTo($('#onas'), 700); });
+            $('#link2').click(function () { $.scrollTo($('#projekty'), 700); });
             $('#link3').click(function () { $.scrollTo($('#of'), 800); });
             $('#link4').click(function () { $.scrollTo($('#artykuly'), 800); });
             $('#link5').click(function () { $.scrollTo($('#kontakt'), 800); });
@@ -45,10 +45,15 @@
 
 
     <div id="naglowek">
-        <h1>Fundacja Niezapominajka</h1> 
-        <h2>terapia i opieka wytchnieniowa</h2>        
+        <div id="nazwa">
+            Fundacja Niezapominajka
+        </div>
+        <div>
+            terapia i opieka wytchnieniowa
+        </div>
+        <br />
         <div id="opis">
-            <h3> Działamy na rzecz osób starszych, niepełnosprawnych w wyniku chorób neurodegradacyjnych takich jak, demencja czy choroba Alzheimera oraz ich rodzin, opiekunów i bliskich </h3>
+            Działamy na rzecz osób starszych, niepełnosprawnych w wyniku chorób neurodegradacyjnych takich <br />jak, demencja czy choroba Alzheimera oraz ich rodzin, opiekunów i bliskich
         </div>
     </div>
 
@@ -58,9 +63,9 @@
 
     <div id="menu"> <!--MENU-->
         <h2>
+            <a id="link1" href="#">O Fundacji</a><br />
             <a id="link0" href="#">Aktualności</a><br />
 
-            <a id="link1" href="#">O Fundacji</a><br />
             <a id="link2" href="#">Nasze projekty<br /></a>
             <a id="link3" href="#">Nasza oferta<br /></a>
             <a id="link4" href="#">Warto wiedzieć<br /></a>
@@ -81,15 +86,21 @@
     <div id="tresc">
 
         <div>
-            <h1 id="news">Aktulaności</h1><!-- 0 -->
-            
+            <div>
+                <h1 id="onas">O nas w kilku słowach</h1><!-- 1 -->
+                <h2>
+                    Celem Fundacji jest holistyczna pomoc zarówno osobie chorej (choroby neurodegradacyjne typu demencja starcza, choroba Alzheimera itp.), jak też wsparcie rodziny, w której chory przebywa. Jedynym sposobem pomocy pacjentowi jest, obok farmakoterapii, systematyczna praca terapeutyczna, która ma na celu usprawnienie bądź utrzymanie procesów poznawczych na zastanym etapie. Odpowiednio dobrane i systematyczne działania terapeutyczne są w stanie opóźnić proces choroby.<br /> Wraz z działaniami terapeutycznymi, zarówno w domu pacjenta jak i poza nim, konieczne jest również zapewnienie opieki medycznej i pielęgnacyjnej samej osobie chorej.
+                    <br />Choroba dotyka całą rodzinę, opiekunowie narażeni są na wykluczenie społeczne, często rezygnują z pasji i zainteresowań, zapominają o sobie. Nasza Fundacja proponuje więc i system wsparcia dla członków rodzin chorego.
+                    Zatrudniamy specjalistów z różnych dziedzin w celu zapewnienia odpowiedniej i koniecznej w danym przypadku pomocy oraz terapii i pomocy dla chorego i jego opiekunów.
+
+                </h2>
+            </div>
+            <h1 id="news">Aktualności</h1><!-- 0 -->            
             <div id="film">
                 <h2> Zapraszamy do współpracy </h2>
                 <video width="150" controls>
                     <source src="video-1628956309.mp4" type="video/mp4" codecs="avc1.64001E, mp4a.40.2" />
-                    <source src="AnyConv.com__video-1628956309.ogg" type="video/ogg" />
-
-                    
+                    <source src="AnyConv.com__video-1628956309.ogg" type="video/ogg" />                    
                 </video>
             </div>
 
@@ -107,15 +118,6 @@
             </div>
         </div>
         <div id="odklejenie"></div>
-        <div>
-            <h1 id="onas">O nas w kilku słowach</h1><!-- 1 -->
-            <h2>
-                Celem Fundacji jest holistyczna pomoc zarówno osobie chorej (choroby neurodegradacyjne typu demencja starcza, choroba Alzheimera itp.), jak też wsparcie rodziny, w której chory przebywa. Jedynym sposobem pomocy pacjentowi jest, obok farmakoterapii, systematyczna praca terapeutyczna, która ma na celu usprawnienie bądź utrzymanie procesów poznawczych na zastanym etapie. Odpowiednio dobrane i systematyczne działania terapeutyczne są w stanie opóźnić proces choroby.<br /> Wraz z działaniami terapeutycznymi, zarówno w domu pacjenta jak i poza nim, konieczne jest również zapewnienie opieki medycznej i pielęgnacyjnej samej osobie chorej.
-                <br />Choroba dotyka całą rodzinę, opiekunowie narażeni są na wykluczenie społeczne, często rezygnują z pasji i zainteresowań, zapominają o sobie. Nasza Fundacja proponuje więc i system wsparcia dla członków rodzin chorego.
-                Zatrudniamy specjalistów z różnych dziedzin w celu zapewnienia odpowiedniej i koniecznej w danym przypadku pomocy oraz terapii i pomocy dla chorego i jego opiekunów.
-
-            </h2>
-        </div>
         <div id="obrazek_niezapominajka">
             <img src="flower.png" width="100%" />
         </div>
@@ -180,3 +182,4 @@
 
 </body>
 </html>
+
