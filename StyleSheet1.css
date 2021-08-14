@@ -41,21 +41,22 @@
 }
 
 #news {
-    margin: auto;
     color: rgb(47, 79, 79);
 }
 #film {
     float: left;
     color: rgb(47, 79, 79);
-    
+    padding: 10px;
+    /*    width: 40%;
+*/
 }
 #dzienotwarty {
     float: left;
     color: rgb(47, 79, 79);
     text-align: left;
     width: 300px;
-    padding: 20px;
-    }
+    padding: 10px;
+}
 #odklejenie{
     clear: both;
 }
