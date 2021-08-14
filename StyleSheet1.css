@@ -1,0 +1,107 @@
+﻿body {
+    background-color: rgb(135, 206, 250, 0.1);
+}
+
+
+#nrkonta {
+    color: rgb(47, 79, 79);
+    text-align: right;
+    margin-right: 100px;
+}
+
+#naglowek {
+    background-color: rgb(255,99,71, 0.8);
+    color: rgb(224, 255, 255, 0.9);
+    text-align: center;
+    padding: 15px;
+}
+
+#opis {
+    color: rgb(224, 255, 255, 0.9);
+    text-align: left;
+    padding: 0px 15px;
+}
+
+#logo {
+    float: left;
+    padding: 15px 15px;
+    width: 50%;
+}
+
+#menu {
+    float: left;
+    padding: 20px;
+    color: rgb(47, 79, 79);
+    line-height: 1.6;
+
+}
+
+#obrazek_z_napisem {
+    clear: both;
+}
+
+#news {
+    margin: auto;
+    color: rgb(47, 79, 79);
+}
+#film {
+    float: left;
+    color: rgb(47, 79, 79);
+    width: 50%;
+}
+#dzienotwarty {
+    float: left;
+    color: rgb(47, 79, 79);
+    text-align: left;
+    width: 50%;
+    /*    height: 300px;
+*/}
+#odklejenie{
+    clear: both;
+}
+
+
+#tresc {
+    background-color: rgb(255,99,71, 0.3);
+    color: rgb(47, 79, 79);
+    text-align: left;
+    padding: 15px;
+}
+
+#stopka {
+    text-align: right;
+    padding: 15px;
+}
+
+a:link {
+    color: rgb(47, 79, 79);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(47, 79, 79);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(47, 79, 79);
+}
+
+a:active {
+    color: rgb(47, 79, 79);
+    text-decoration: none;
+}
+
+
+.przewin {
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    background: url("upbuton.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 20%;
+    bottom: 10px;
+    display: none;
+    opacity: 0.6;
+}

@@ -4,100 +4,26 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fundacja Niezapominajka</title>
-    <meta name="description" content="działania wytchnieniowe dla opiekunów seniorów i osób chorych na choroby neurodegradacyjne świadczone w miejscu zamieszkania, szkolenia i grupy wsparcia dla członków rodzin seniorów i osób chorych na choroby neurodegradacyjne oraz kadry opiekuńczej" />
+    <meta name="description" content="działania wytchnieniowe dla opiekunów seniorów i osób chorych na choroby neurodegradacyjne świadczone w miejscu zamieszkania szkolenia i grupy wsparcia dla członków rodzin seniorów i osób chorych na choroby neurodegradacyjne oraz kadry opiekuńczej" />
+    <meta name="description" content="fundacja niezapominajka, opieka wytchnieniowa, choroby neurodegradacyjne,senior, opieka, osoby strasze, terapia, pomoc, Alzheimer, demencja, pamięć" />
 
-    <style>
-
-        a:link {
-            color: rgb(47, 79, 79);
-            text-decoration: none;
-        }
-
-        a:visited {
-            color: rgb(47, 79, 79);
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: rgb(47, 79, 79);
-            text-decoration: underline;
-        }
-
-        a:active {
-            color: rgb(47, 79, 79);
-            text-decoration: none;
-        }
-        .przewin {
-            width: 60px;
-            height: 60px;
-            text-decoration: none;
-            background: url("upbuton.png") no-repeat 0px 0px;
-            position: fixed;
-            right: 50%;
-            bottom: 10px;
-            display: none;
-            opacity: 0.6;
-        }
-
-        #naglowek {
-            background-color: rgb(255,99,71, 0.8);
-            color: rgb(224, 255, 255, 0.9);
-            text-align: center;
-            padding: 15px;
-        }
-
-        #opis {
-            color: rgb(224, 255, 255, 0.9);
-            text-align: left;
-            padding: 0px 15px;
-        }
-
-        #obrazek {
-            float: left;
-            padding: 15px 15px;
-            width: 50%;
-        }
-
-        #menu {
-            float: left;
-            padding: 20px;
-            color: rgb(47, 79, 79);
-            line-height: 1.8;
-        }
-
-        #obrazek_z_napisem {
-            clear: both;
-        }
-
-        #tresc {
-            background-color: rgb(255,99,71, 0.4);
-            color: rgb(47, 79, 79);
-            text-align: justify;
-            padding: 15px;
-        }
-
-        #stopka {
-            text-align: right;
-            background-color: rgb(255,99,71, 0.4);
-            padding: 15px;
-        }
-    </style>
-
+    <link rel="stylesheet" href="StyleSheet1.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="jquery.scrollTo.min.js"></script>
 
     <script>
         jQuery(function ($) {
-            $.scrollTo(0);
+            $.scrollTo(0); //zresetowanie scrolla
 
+            $('#link0').click(function () { $.scrollTo($('#news'), 800); });
             $('#link1').click(function () { $.scrollTo($('#onas'), 800); });
             $('#link2').click(function () { $.scrollTo($('#projekty'), 800); });
             $('#link3').click(function () { $.scrollTo($('#of'), 800); });
             $('#link4').click(function () { $.scrollTo($('#artykuly'), 800); });
             $('#link5').click(function () { $.scrollTo($('#kontakt'), 800); });
             $('#link6').click(function () { $.scrollTo($('#datki'), 800); });
-            $('.przewin').click(function () { $.scrollTo($('body'), 800); });
+            $('.przewin').click(function () { $.scrollTo($('body'), 800); }); //przycik powrotu do gory strony
 
         }
         );
@@ -105,31 +31,35 @@
         $(window).scroll(function () {
             if ($(this).scrollTop() > 300) $('.przewin').fadeIn();
             else $('.przewin').fadeOut();
-        }
-    
-    
+        }        
     );
     </script>
 
 </head>
 
 <body>
+    <div id="nrkonta">
+        <h4>Nr konta: Bank PKO BP 68 1020 2313 0000 3702 1057 7726</h4>
+    </div>
+
 
 
     <div id="naglowek">
         <h1>Fundacja Niezapominajka</h1> 
         <h2>terapia i opieka wytchnieniowa</h2>        
         <div id="opis">
-                <h3> Działamy na rzecz osób starszych, niepełnosprawnych w wyniku chorób neurodegradacyjnych takich jak demencja czy choroba Alzheimera oraz ich rodzin, opiekunów i bliskich </h3>
+            <h3> Działamy na rzecz osób starszych, niepełnosprawnych w wyniku chorób neurodegradacyjnych takich jak, demencja czy choroba Alzheimera oraz ich rodzin, opiekunów i bliskich </h3>
         </div>
     </div>
 
-    <div id="obrazek">
+    <div id="logo">
            <img src="flower_nazwa.png" width="100%"/> 
     </div>
 
     <div id="menu"> <!--MENU-->
         <h2>
+            <a id="link0" href="#">Aktualności</a><br />
+
             <a id="link1" href="#">O Fundacji</a><br />
             <a id="link2" href="#">Nasze projekty<br /></a>
             <a id="link3" href="#">Nasza oferta<br /></a>
@@ -151,8 +81,34 @@
     <div id="tresc">
 
         <div>
+            <h1 id="news">Aktulaności</h1><!-- 0 -->
+            
+            <div id="film">
+                <h2> Zapraszamy do współpracy </h2>
+                <video width="200" height="300" controls>
+                    <source src="video-1628956309.mp4" type="video/mp4" codecs="avc1.64001E, mp4a.40.2" />
+                    <source src="AnyConv.com__video-1628956309.ogg" type="video/ogg" />
+
+                    
+                </video>
+            </div>
+
+            <div id="dzienotwarty">
+                    <p>
+                <h2>
+                        Zapraszamy na dzień otwarty naszej fundacji <br /><br />
+                        18 sierpnia 2021 r. <br /> 
+                </h2>
+                <h3>
+                    w Szkole Podstawowej Nr 61 im. Polskich Kawalerów Maltańskich Specjalnej w Katowicach ul. Kołobrzeska 8 <br /><br />
+                    Rozpoczęcie o godzinie 10:00
+                </h3>
+                    </p>
+            </div>
+        </div>
+        <div id="odklejenie"></div>
+        <div>
             <h1 id="onas">O nas w kilku słowach</h1><!-- 1 -->
-            <br />
             <h2>
                 Celem Fundacji jest holistyczna pomoc zarówno osobie chorej (choroby neurodegradacyjne typu demencja starcza, choroba Alzheimera itp.), jak też wsparcie rodziny, w której chory przebywa. Jedynym sposobem pomocy pacjentowi jest, obok farmakoterapii, systematyczna praca terapeutyczna, która ma na celu usprawnienie bądź utrzymanie procesów poznawczych na zastanym etapie. Odpowiednio dobrane i systematyczne działania terapeutyczne są w stanie opóźnić proces choroby.<br /> Wraz z działaniami terapeutycznymi, zarówno w domu pacjenta jak i poza nim, konieczne jest również zapewnienie opieki medycznej i pielęgnacyjnej samej osobie chorej.
                 <br />Choroba dotyka całą rodzinę, opiekunowie narażeni są na wykluczenie społeczne, często rezygnują z pasji i zainteresowań, zapominają o sobie. Nasza Fundacja proponuje więc i system wsparcia dla członków rodzin chorego.
@@ -160,65 +116,43 @@
 
             </h2>
         </div>
-        <br />
-
         <div id="obrazek_niezapominajka">
             <img src="flower.png" width="100%" />
         </div>
-
-
         <div>
             <h1 id="projekty">Nasza działalność</h1><!-- 2 -->
-            <br />
 
             <div>
-                <h2>
-                    Pomagamy w zakresie terapii oraz opieki wytchnieniowej dla osób starszych, opiekunów seniorów, osób chorych na choroby neurodegradacyjne oraz ich rodzin, świadczone w miejscu zamieszkania podopiecznych.
-                        <br /><br />
-                        Prowadzimy działania edukacyjne w obszarze szkoleń oraz grup wsparcia zarówno dla członków rodzin seniorów, samych osób chorych, jak również dla kadry opiekuńczej.
-                </h2><br />
+                <h2> Pomagamy w zakresie terapii oraz opieki wytchnieniowej dla osób starszych, opiekunów seniorów, osób chorych na choroby neurodegradacyjne oraz ich rodzin, świadczone w miejscu zamieszkania podopiecznych.
+                <br /><br />
+                Prowadzimy działania edukacyjne w obszarze szkoleń oraz grup wsparcia zarówno dla członków rodzin seniorów, samych osób chorych, jak również dla kadry opiekuńczej.
+                </h2>
             </div>
-
-            <br />
         </div>
-        <br />
-
         <div>
             <h1 id="of">Jak pomagamy</h1><!-- 3 -->
-            <br />
             <h2>
-                Profesjonalne działania wykształconej kadry.
+                Profesjonalne działania wykształconej kadry.<br />
                 Na terenie Katowic i okolicznych miast oferujemy:<br />
                 <ul>
                     <li>
-
                         Działania wytchnieniowe dla opiekunów seniorów i osób chorych na choroby neurodegradacyjne świadczone w miejscu zamieszkania;
                     </li>
                     <li>
-
                         Szkolenia i grupy wsparcia dla członków rodzin seniorów i osób chorych na choroby neurodegradacyjne oraz kadry opiekuńczej.
                     </li>
                 </ul>
             </h2>
-
-
         </div>
-        <br />
-
         <div>
-            <h1 id="artykuly">Kompendium wiedzy</h1><!-- 4 -->
-            <br />
+            <h1 id="artykuly">Kompedium wiedzy</h1><!-- 4 -->
             <h2>
                 W przygotowaniu
             </h2>
-            <br />
 
         </div>
-        <br />
-
         <div>
             <h1 id="kontakt">Dane kontaktowe</h1><!-- 5 -->
-            <br />
             <h2>
                 Fundacja Niezpominajka<br />Tarapia i opieka wytchnieniowa<br />ul. Kopernika 14<br />40-064 Katowice
                 <br /><br />
@@ -228,11 +162,8 @@
                 Nr konta: Bank PKO BP 68 1020 2313 0000 3702 1057 7726
             </h2>
         </div>
-        <br />
-
         <div>
             <h1 id="datki">Darowizny</h1> <!-- 6 -->
-            <br />
             <h2>
                 Wspierając nas zapewniasz profesjonalną pomoc i prawo do godnego życia dla chorych oraz ich opiekunów
                 <br /><br />
@@ -240,16 +171,11 @@
                 Nr konta: Bank PKO BP 68 1020 2313 0000 3702 1057 7726
             </h2>
         </div>
-        <br />
-
     <img src="meadow.png" width="100%" />
-
     </div>
         
-
     <div id="stopka">
         <i>Fundacja Niezpominajka<br />Tarapia i opieka wytchnieniowa<br />ul. Kopernika 14<br />40-064 Katowice</i>
-
     </div>
 
 </body>
