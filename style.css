@@ -1,0 +1,166 @@
+﻿body {
+    background-color: rgb(180,180,180, 0.4);
+    color: rgb(50, 50, 50, 1);
+    font-family: 'Lato', sans-serif;
+    margin: 0 !important;
+}
+
+#container{
+    width: auto;
+}
+#pasek {
+    width: auto;
+    height:auto;
+}
+.pas{
+    float: left;
+}
+#krsinr {
+    width:100%;
+    text-align: right;
+    font-size: 16px;
+}
+#naglowek {
+    background-color: rgb(255,99,71, 0.8);
+    color: rgb(50, 50, 50, 1);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom:15px;
+}
+
+.logo {
+    float:left;
+}
+.menu {
+    float: left;
+    text-align: left;
+    margin-left: 25px;
+    width: 350px;
+    height: 200px;
+    line-height: 1.6;
+}
+
+
+ol > li {
+    list-style-type:none;
+    font-size: 28px;
+}
+ol>li>ul{
+    display:none;
+}
+/*ol > li > ul > li {
+    list-style-type: none;
+    width: 200px;
+    position: relative;
+
+}
+*/
+
+ol a {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+    padding: 5px 5px;
+}
+ol > li:hover > a {
+    display:block;
+    text-decoration:underline;
+}
+
+
+#wstep{
+
+}
+
+.artykul {
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
+#obrazek {
+    width: auto;
+}
+.tytul{
+    padding: 10px 10px;
+    font-size: 26px;
+}
+#stopka{
+    width:auto;
+    margin-top: 50px;
+    margin-bottom:500px;
+}
+#dane{
+    padding:10px;
+    width:40%;
+}
+#linkims{
+    width:40%;
+    margin-left:15%;
+}
+
+
+
+a.sclink {
+    color: whitesmoke;
+}
+.yt {
+    float: left;
+    width: 80px;
+    height: 85px;
+    margin-left: 10px;
+    background-color: #d94348;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 15px;
+}
+
+.fb {
+    float: left;
+    width: 80px;
+    height: 85px;
+    margin-left: 10px;
+    background-color: #4668b3;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top:15px;
+}
+
+.go {
+    float: left;
+    width: 80px;
+    height: 85px;
+    margin-left: 10px;
+    background-color: #d95333;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top:15px;
+}
+.yt:hover {
+    background-color: #c83337;
+    cursor: pointer;
+}
+.fb:hover{
+    background-color: #3557a2;
+}.go:hover{
+    background-color: #c84222;
+}
+.przewin {
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    background: url("upbuton.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 20%;
+    bottom: 10px;
+    display: none;
+    opacity: 0.6;
+}
+.zdjecia{
+    float: left;
+    margin-left:5px;
+    height:210px;
+    /*background-color:palevioletred;*/
+}
