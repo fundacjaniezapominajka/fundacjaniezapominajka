@@ -26,7 +26,6 @@
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    margin-bottom:15px;
 }
 
 .logo {
@@ -44,7 +43,7 @@
 
 ol > li {
     list-style-type:none;
-    font-size: 28px;
+    font-size: 26px;
 }
 ol>li>ul{
     display:none;
