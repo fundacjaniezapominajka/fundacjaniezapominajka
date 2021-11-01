@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fundacja Niezapominajka</title>
+    <meta name="description" content="działania wytchnieniowe dla opiekunów seniorów i osób chorych na choroby neurodegradacyjne świadczone w miejscu zamieszkania szkolenia i grupy wsparcia dla członków rodzin seniorów i osób chorych na choroby neurodegradacyjne oraz kadry opiekuńczej" />
+    <meta name="keywords" content="fundacja niezapominajka, opieka wytchnieniowa, choroby neurodegradacyjne, senior, opieka, osoby strasze, terapia, pomoc, Alzheimer, demencja, pamięć" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <script>
+        jQuery(function ($) {
+            $.scrollTo(0); //zresetowanie scrolla
+            $('#l1').click(function () { $.scrollTo($('#ofundacji'), 600); });
+            $('#l2').click(function () { $.scrollTo($('#corobimy'), 700); });
+            $('.przewin').click(function () { $.scrollTo($('body'), 800); }); //przycisk powrotu do gory strony
+        });
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 300) $('.przewin').fadeIn();
+            else $('.przewin').fadeOut();
+        });
+    </script>
+
+</head>
+<body>
+    <main>
+        <div id="container">
+
+            <section>
+            <div id="pasek">
+                <div id="krsinr">KRS: 0000907058<br />Numer konta Bank PKO BP 68 1020 2313 0000 3702 1057 7726</div>
+            </div>
+            </section>
+
+            <header>
+                <div id="naglowek">
+                    <h2>Fundacja Niezapominajka</h2>
+                    Terapia i opieka wytchnieniowa<br />
+                    Działamy na rzecz seniorów, osób starszych, niepełnosprawnych w wyniku chorób neurodegradacyjnych takich jak, demencja czy choroba Alzheimera oraz ich rodzin, opiekunów i bliskich
+                </div>
+            </header>
+            <!--MENU-->
+            <div class="logo"><a href="index.html"><img src="flower_nazwa.png" height="200" /></a></div>
+            <nav>
+                <div class="menu">
+                    <ol>
+                        <li><a id="l1" href="#">O fundacji</a></li>
+                        <li><a href="opieka-wytchnieniowa-katowice-spotkania-seniorow.html">Wydarzenia</a></li>
+                        <li><a id="l2" href="#">Co robimy</a></li>
+                        <li><a href="fundacja-niezapominajka-pomoc.html">Jak możesz pomóc</a></li>
+                    </ol>
+                </div>
+                <div style="clear:both;"></div>
+            </nav>
+            <a href="#" class="przewin"></a>
+
+            <!--ARTYKUŁ-->
+            <article>
+                <div id="wstep" class="artykul">
+                    Oferujemy pomoc w zakresie terapii oraz opieki wytchnieniowej dla osób starszych, opiekunów seniorów, osób chorych na choroby neurodegradacyjne oraz ich rodzin, świadczoną w miejscu zamieszkania podopiecznych.<br />
+                    Prowadzimy działania edukacyjne  w obszarze szkoleń oraz grup wsparcia zarówno dla członków rodzin seniorów, samych osób chorych, jak również dla kadry opiekuńczej.
+                </div>
+            </article>
+            <section>
+                <div id="obrazek"><img src="napis_senior.png" style="width: 100%" /></div>
+            </section>
+            <article>
+                <div id="ofundacji" class="tytul">O nas w kilku słowach</div>
+                <div class="artykul">
+                    Celem Fundacji jest holistyczna pomoc zarówno osobie chorej (choroby neurodegradacyjne typu demencja starcza, choroba Alzheimera itp.), jak też wsparcie rodziny, w której chory przebywa. Jedynym sposobem pomocy pacjentowi jest, obok farmakoterapii, systematyczna praca terapeutyczna, która ma na celu usprawnienie bądź utrzymanie procesów poznawczych na zastanym etapie. Odpowiednio dobrane i systematyczne działania terapeutyczne są w stanie opóźnić proces choroby.
+                    Wraz z działaniami terapeutycznymi, zarówno w domu pacjenta jak i poza nim, konieczne jest również zapewnienie opieki medycznej i pielęgnacyjnej samej osobie chorej.
+                    Choroba dotyka całą rodzinę, opiekunowie narażeni są na wykluczenie społeczne, często rezygnują z pasji i zainteresowań, zapominają o sobie. Nasza Fundacja proponuje więc i system wsparcia dla członków rodzin chorego. Zatrudniamy specjalistów z różnych dziedzin w celu zapewnienia odpowiedniej i koniecznej w danym przypadku pomocy oraz terapii i pomocy dla chorego i jego opiekunów.
+                </div>
+            </article>
+            <section>
+                <div id="obrazek"><img src="flower.png" style="width: 100%" /></div>
+            </section>
+
+            <article>
+                <div id="corobimy" class="tytul">Jak pomagamy</div>
+                <div class="artykul">
+                    Oferujemy profesjonalne działania wykształconej kadry.<br />
+                    Na terenie Katowic i okolicznych miast oferujemy:<br />
+                    Działania wytchnieniowe dla opiekunów seniorów i osób chorych na choroby neurodegradacyjne świadczone w miejscu zamieszkania;<br />
+                    Szkolenia i grupy wsparcia dla członków rodzin seniorów i osób chorych na choroby neurodegradacyjne oraz kadry opiekuńczej.<br />
+                    Pomagamy w zakresie terapii oraz opieki wytchnieniowej dla osób starszych, opiekunów seniorów, osób chorych na choroby neurodegradacyjne oraz ich rodzin, świadczone w miejscu zamieszkania podopiecznych.<br />
+                    Prowadzimy działania edukacyjne w obszarze szkoleń oraz grup wsparcia zarówno dla członków rodzin seniorów, samych osób chorych, jak również dla kadry opiekuńczej.
+                </div>
+            </article>
+            <!--STOPKA-->
+            <footer>
+                <div id="stopka">
+                    <div id="dane" class="pas">
+                        Fundacja Niezapominajka Terapia i opieka wytchnieniowa <br />
+                        ul. Kopernika 14, 40-064 Katowice<br />
+                        + 48 511 647 492<br />
+                        fundacjaniezapominajkaslak@gmail.com<br />
+                        NIP: 6342998312, KRS: 0000907058
+                    </div>
+                    <div id="linkims" class="pas">
+                        <div class="yt"><a href="http://youtube.com" target="_blank" class="sclink"><i class="icon-youtube"></i></a></div>
+                        <div class="fb"><a href="https://m.facebook.com/Fundacja-Niezapominajka-terapia-i-opieka-wytchnieniowa-103035295388230/" target="_blank" class="sclink"><i class="icon-facebook"></i></a></div>
+                        <div class="go"><a href="index.html" target="_blank" class="sclink"><i class="icon-google"></i></a></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>

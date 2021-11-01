@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fundacja Niezapominajka</title>
+    <meta name="description" content="działania wytchnieniowe dla opiekunów seniorów i osób chorych na choroby neurodegradacyjne świadczone w miejscu zamieszkania szkolenia i grupy wsparcia dla członków rodzin seniorów i osób chorych na choroby neurodegradacyjne oraz kadry opiekuńczej" />
+    <meta name="keywords" content="fundacja niezapominajka, opieka wytchnieniowa, choroby neurodegradacyjne, senior, opieka, osoby strasze, terapia, pomoc, Alzheimer, demencja, pamięć" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <script>
+        jQuery(function ($) {
+            $.scrollTo(0); //zresetowanie scrolla
+            $('#l1').click(function () { $.scrollTo($('#ofundacji'), 600); });
+            $('#l2').click(function () { $.scrollTo($('#corobimy'), 700); });
+            $('.przewin').click(function () { $.scrollTo($('body'), 800); }); //przycisk powrotu do gory strony
+        });
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 300) $('.przewin').fadeIn();
+            else $('.przewin').fadeOut();
+        });
+    </script>
+
+</head>
+<body>
+    <main>
+        <div id="container">
+
+            <section>
+                <div id="pasek">
+                    <div id="krsinr">KRS: 0000907058<br />Numer konta Bank PKO BP 68 1020 2313 0000 3702 1057 7726</div>
+                </div>
+            </section>
+
+            <header>
+                <div id="naglowek">
+                    <h2>Fundacja Niezapominajka</h2>
+                    Terapia i opieka wytchnieniowa<br />
+                    Działamy na rzecz seniorów, osób starszych, niepełnosprawnych w wyniku chorób neurodegradacyjnych takich jak, demencja czy choroba Alzheimera oraz ich rodzin, opiekunów i bliskich
+                </div>
+            </header>
+            <!--MENU-->
+            <div class="logo"><a href="index.html"><img src="flower_nazwa.png" height="200" /></a></div>
+            <nav>
+                <div class="menu">
+                    <ol>
+                        <li><a id="l1" href="index.html">O fundacji</a></li>
+                        <li><a href="wydarzenia.html">Wydarzenia</a></li>
+                        <li><a id="l2" href="index.html">Co robimy</a></li>
+                        <li><a href="jakmozeszpomoc.html">Jak możesz pomóc</a></li>
+                    </ol>
+                </div>
+                <div style="clear:both;"></div>
+            </nav>
+            <a href="#" class="przewin"></a>
+
+            <!--ARTYKUŁ-->
+            <article>
+
+                <div id="tresc">
+
+
+                    <div class="tytul">Jak możesz nam pomóc</div>
+                    <div class="artykul">
+                        Wspierając nas zapewniasz profesjonalną pomoc i prawo do godnego życia dla chorych oraz ich opiekunów
+                        <br /><br />
+                        KRS: 0000907058<br />
+                        Nr konta: Bank PKO BP 68 1020 2313 0000 3702 1057 7726<br />
+                    </div>
+
+                </div>
+
+                <h2>
+                   
+                </h2>
+
+
+
+
+
+
+
+            </article>
+        <!--STOPKA-->
+        <footer>
+            <div id="stopka">
+                <div id="dane" class="pas">
+                    Fundacja Niezapominajka Terapia i opieka wytchnieniowa <br />
+                    ul. Kopernika 14, 40-064 Katowice<br />
+                    + 48 511 647 492<br />
+                    fundacjaniezapominajkaslak@gmail.com<br />
+                    NIP: 6342998312, KRS: 0000907058
+                </div>
+                <div id="linkims" class="pas">
+                    <div class="yt"><a href="http://youtube.com" target="_blank" class="sclink"><i class="icon-youtube"></i></a></div>
+                    <div class="fb"><a href="https://m.facebook.com/Fundacja-Niezapominajka-terapia-i-opieka-wytchnieniowa-103035295388230/" target="_blank" class="sclink"><i class="icon-facebook"></i></a></div>
+                    <div class="go"><a href="index.html" target="_blank" class="sclink"><i class="icon-google"></i></a></div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </footer>
+        </div>
+    </main>
+</body>
+</html>
