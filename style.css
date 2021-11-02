@@ -1,80 +1,67 @@
 ﻿body {
-    background-color: rgb(180,180,180, 0.4);
-    color: rgb(50, 50, 50, 1);
+    background-color: rgb(220,220,220);
+    color: rgb(50, 50, 50);
     font-family: 'Lato', sans-serif;
-    margin: 0 !important;
 }
 
 #container{
     width: auto;
 }
-#pasek {
-    width: auto;
-    height:auto;
+#nazwa{
+    font-size:28px;
 }
-.pas{
-    float: left;
-}
-#krsinr {
-    width:100%;
-    text-align: right;
-    font-size: 16px;
-}
-#naglowek {
-    background-color: rgb(255,99,71, 0.8);
-    color: rgb(50, 50, 50, 1);
+.naglowek {
+    background-color: rgb(255,100,50, 0.8);
     font-size: 20px;
     text-align: center;
     padding: 10px;
 }
-
-.logo {
-    float:left;
-}
-.menu {
-    float: left;
+#menu {
     text-align: left;
-    margin-left: 25px;
-    width: 350px;
-    height: 200px;
+    width: auto;
+    height: auto;
     line-height: 1.6;
 }
+#obrazek{
+    float: left;
+    margin-left:15px;
+    margin-right:25px;
+}
+#opisnaglowek{
+    float: left;
+    text-align: center;
+    margin-bottom:30px;
 
+}
+#pas2 {
+    width:80%;
+    margin:15px auto;
+}
 
 ol > li {
-    list-style-type:none;
-    font-size: 26px;
+    list-style-type: none;
+    font-size: 24px;
 }
 ol>li>ul{
     display:none;
 }
-/*ol > li > ul > li {
-    list-style-type: none;
-    width: 200px;
-    position: relative;
-
-}
-*/
-
 ol a {
     color: rgb(50, 50, 50);
     text-decoration: none;
     padding: 5px 5px;
 }
 ol > li:hover > a {
-    display:block;
-    text-decoration:underline;
+    font-size:26px;
 }
-
-
-#wstep{
-
+#gal{
+    text-align:center;
 }
 
 .artykul {
     font-size: 20px;
     padding: 10px;
     text-align: left;
+    margin-bottom: 30px;
 }
 #obrazek {
     width: auto;
@@ -82,19 +69,20 @@ ol > li:hover > a {
 .tytul{
     padding: 10px 10px;
     font-size: 26px;
+    margin-top:15px;
 }
 #stopka{
     width:auto;
     margin-top: 50px;
     margin-bottom:500px;
 }
-#dane{
-    padding:10px;
-    width:40%;
+#dane {
+    float: left;
 }
-#linkims{
-    width:40%;
-    margin-left:15%;
+#linkfb {
+    float: left;
+    margin-top:10px;
+    margin-left:50px;
 }
 
 
@@ -102,18 +90,6 @@ ol > li:hover > a {
 a.sclink {
     color: whitesmoke;
 }
-.yt {
-    float: left;
-    width: 80px;
-    height: 85px;
-    margin-left: 10px;
-    background-color: #d94348;
-    font-size: 50px;
-    text-align: center;
-    color: whitesmoke;
-    padding-top: 15px;
-}
-
 .fb {
     float: left;
     width: 80px;
@@ -125,26 +101,8 @@ a.sclink {
     color: whitesmoke;
     padding-top:15px;
 }
-
-.go {
-    float: left;
-    width: 80px;
-    height: 85px;
-    margin-left: 10px;
-    background-color: #d95333;
-    font-size: 50px;
-    text-align: center;
-    color: whitesmoke;
-    padding-top:15px;
-}
-.yt:hover {
-    background-color: #c83337;
-    cursor: pointer;
-}
 .fb:hover{
     background-color: #3557a2;
-}.go:hover{
-    background-color: #c84222;
 }
 .przewin {
     width: 60px;
@@ -161,5 +119,11 @@ a.sclink {
     float: left;
     margin-left:5px;
     height:210px;
-    /*background-color:palevioletred;*/
+}
+.gal{
+    width:90%;
+    margin: 0 auto;
+}
+#tresc{
+    margin:80px auto;
 }
