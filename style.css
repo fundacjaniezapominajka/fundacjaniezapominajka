@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: rgb(220,220,220);
+    background-color: rgb(240,240,240);
     color: rgb(50, 50, 50);
     font-family: 'Lato', sans-serif;
 }
@@ -7,11 +7,12 @@
 #container{
     width: auto;
 }
-#nazwa{
-    font-size:28px;
+#nazwa {
+    font-size: 28px;
 }
 .naglowek {
-    background-color: rgb(255,100,50, 0.8);
+    color: rgb(240,240,240, 0.9);
+    background-color: rgb(255, 128, 0, 0.9);
     font-size: 20px;
     text-align: center;
     padding: 10px;
