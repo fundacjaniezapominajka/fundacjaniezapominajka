@@ -51,7 +51,7 @@ ol a {
     padding: 5px 5px;
 }
 ol > li:hover > a {
-    font-size:26px;
+    text-decoration:underline;
 }
 #gal{
     text-align:center;
