@@ -70,6 +70,7 @@ ol > li:hover > a {
     padding: 10px 10px;
     font-size: 26px;
     margin-top:15px;
+    margin-bottom:15px;
 }
 #stopka{
     width:auto;
@@ -125,5 +126,12 @@ a.sclink {
     margin: 0 auto;
 }
 #tresc{
-    margin:80px auto;
+}
+#wyd3{
+    margin-top:25px;
+}
+#tyt {
+    padding: 10px 10px;
+    font-size: 26px;
+    text-align:center;
 }
