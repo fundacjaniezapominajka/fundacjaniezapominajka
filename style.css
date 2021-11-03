@@ -112,7 +112,7 @@ a.sclink {
     text-decoration: none;
     background: url("upbuton.png") no-repeat 0px 0px;
     position: fixed;
-    right: 80%;
+    right: 50%;
     bottom: 10px;
     display: none;
     opacity: 0.6;
